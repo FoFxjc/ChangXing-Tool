@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b01a7de1-c215-4a86-92a3-5d669ae81e1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary/颜文字.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Native_Language_Cleaning/Find_Emoticons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/basic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,7 @@
         <counts>
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="43" />
+          <entry key="py" value="47" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -33,41 +35,32 @@
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="43" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="353" />
           <entry key="md" value="25" />
-          <entry key="py" value="1638" />
+          <entry key="py" value="1694" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="25" />
           <entry key="PLAIN_TEXT" value="353" />
-          <entry key="Python" value="1638" />
+          <entry key="Python" value="1694" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/other.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dictionary/颜文字.txt">
+        <entry file="file://$PROJECT_DIR$/Native_Language_Cleaning/Find_Emoticons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="133">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -124,16 +117,17 @@
         <option value="$PROJECT_DIR$/utils/mysql.py" />
         <option value="$PROJECT_DIR$/utils/request.py" />
         <option value="$PROJECT_DIR$/utils/spider.py" />
-        <option value="$PROJECT_DIR$/utils/basic.py" />
         <option value="$PROJECT_DIR$/utils/photoshop.py" />
         <option value="$PROJECT_DIR$/utils/crawler_utils.py" />
         <option value="$PROJECT_DIR$/environment.py" />
         <option value="$PROJECT_DIR$/crawler/Twitter_Tweet/Twitter_Tweet_by_Github_Twitter-scraper.py" />
         <option value="$PROJECT_DIR$/Native_Language_Cleaning/Toggle_Case.py" />
+        <option value="$PROJECT_DIR$/utils/basic.py" />
+        <option value="$PROJECT_DIR$/Native_Language_Cleaning/Find_Emoticons.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1112" />
     <option name="y" value="3" />
     <option name="width" value="812" />
@@ -153,6 +147,16 @@
             <path>
               <item name="ChangXing-Tool" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChangXing-Tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChangXing-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChangXing-Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChangXing-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChangXing-Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="Native_Language_Cleaning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChangXing-Tool" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +193,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Find_Emoticons">
+    <configuration name="Find_Emoticons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ChangXing-Tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Native_Language_Cleaning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Native_Language_Cleaning/Find_Emoticons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Toggle_Case" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ChangXing-Tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,8 +236,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Toggle_Case" />
+      <item itemvalue="Python.Find_Emoticons" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Find_Emoticons" />
         <item itemvalue="Python.Toggle_Case" />
       </list>
     </recent_temporary>
@@ -234,12 +264,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,13 +337,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/spider.py" />
-    <entry file="file://$PROJECT_DIR$/utils/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="154" column="19" lean-forward="true" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -348,24 +371,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Native_Language_Cleaning/Toggle_Case.py">
+    <entry file="file://$PROJECT_DIR$/dictionary/颜文字.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="76">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#48#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/other.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="152">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary/颜文字.txt">
+    <entry file="file://$PROJECT_DIR$/Native_Language_Cleaning/Toggle_Case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native_Language_Cleaning/Find_Emoticons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>

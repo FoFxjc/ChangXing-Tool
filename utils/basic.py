@@ -14,6 +14,16 @@ def double(obj):
     return copy.deepcopy(obj), copy.deepcopy(obj)
 
 
+def regex_format(string):
+    """ 将字符串转义为正则表达式的字符串
+    :param string: <str> 需要转义的字符串
+    :return: <str> 转义为正则表大会格式的字符串
+    """
+    return string.replace(r"$", r"\$").replace(r"(", r"\(").replace(r")", r"\)").replace(r"*", r"\*") \
+        .replace(r"+", r"\+").replace(r".", r"\.").replace(r"[", r"\[").replace(r"]", r"\]").replace(r"?", r"\?") \
+        .replace(r"\\", r"\\\\").replace(r"^", r"\^").replace(r"{", r"\{").replace(r"}", r"\}").replace(r"|", r"\|")
+
+
 def is_element_in_list(list1, list2):
     """ 判断当前列表(list1)中是否有元素出现在目标列表(list2)中
     :param list1: <list> 当前列表
